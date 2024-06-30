@@ -115,7 +115,7 @@ const ddMenuCreation = (labels) => {
 
 //create a menu with the 
 const renderMenu = () => {
-    const menuLabels = ['Caulculator', 'About', 'Contact', 'sos']
+    const menuLabels = ['Caulculator', 'About', 'Contact']
     
     ddMenu.insertAdjacentHTML('afterbegin', ddMenuCreation(menuLabels))
 
