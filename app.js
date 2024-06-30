@@ -7,7 +7,7 @@ const sandwitch = document.querySelectorAll('svg')
 const html = document.documentElement
 
 //toggles the dark class from the html element
-const toggle = () => html.classList.toggle('dark')
+const toggle1 = () => html.classList.toggle('dark')
 
 //changes the view of the screen to the received view (v)
 const setView = (v) => {
@@ -125,8 +125,8 @@ const renderMenu = () => {
 
 //a function that renders the theme buttons
 const renderThemeToggle = () => {
-    const btns = [`<button class="dark:hidden block" onclick="toggle()">Dark</button>`,
-        `<button class="hidden dark:block" onclick="toggle()">Light</button>`
+    const btns = [`<button class="dark:hidden block" onclick="toggle1()">Dark</button>`,
+        `<button class="hidden dark:block" onclick="toggle1()">Light</button>`
     ]
 
     ///adding the buttons from above in the themButtons div
