@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build2": "tailwindcss -i ./style.css -o ./output.css --watch",
     "preview": "vite preview"
   },
   "devDependencies": {
